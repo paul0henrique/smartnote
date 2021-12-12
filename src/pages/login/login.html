@@ -1,0 +1,27 @@
+<ion-content padding>
+
+  <h1 class="custom-title">SmartNote</h1>
+  <h2 class="subtitle">Organizar o seu dia nunca foi tão fácil!</h2>
+
+  <form class="form" [formGroup]="loginForm" (ngSubmit)="submitLogin()">
+    <ion-list>
+      <ion-item class="item">
+        <ion-input type="email" placeholder="E-mail"
+        formControlName="email"></ion-input>
+        <ion-icon name="mail" item-left></ion-icon>
+      </ion-item>
+
+      <ion-item>
+        <ion-input type="password" placeholder="Senha"
+        formControlName="password"></ion-input>
+        <ion-icon name="lock" item-left></ion-icon>
+      </ion-item>
+    </ion-list>
+    <button class="button" type="submit" ion-button [disabled]="loginForm.invalid">Fazer login</button>
+  </form>
+  
+
+  <ion-label class="create" (click)="create()">Não tem uma conta? <strong>Cadastre-se</strong></ion-label>
+  
+  
+</ion-content>

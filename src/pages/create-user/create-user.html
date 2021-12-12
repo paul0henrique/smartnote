@@ -1,0 +1,43 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+
+
+<ion-content padding>
+
+    <h1 class="custom-title">SmartNote</h1>
+    <h2 class="subtitle">Organizar o seu dia nunca foi tão fácil!</h2>
+
+
+  <form class="form" novalidate [formGroup]="registerForm" (ngSubmit)="submitForm()">
+    <ion-list class="item">
+      <ion-item>
+        <ion-input type="text" placeholder="Nome"
+        formControlName="name"></ion-input>
+        <ion-icon name="person" item-left></ion-icon>
+      </ion-item>
+
+      <ion-item>
+        <ion-input type="email" placeholder="E-mail"
+        formControlName="email"></ion-input>
+        <ion-icon name="mail" item-left></ion-icon>
+      </ion-item>
+
+      <ion-item>
+        <ion-input type="password" placeholder="Senha"
+        formControlName="password"></ion-input>
+        <ion-icon name="lock" item-left></ion-icon>
+      </ion-item>
+
+      <ion-item>
+        <ion-input type="password" placeholder="Confirme a senha"
+        formControlName="confirmPassword"></ion-input>
+        <ion-icon name="lock" item-left></ion-icon>
+      </ion-item>
+    </ion-list>
+    <div padding>
+      <button class="button" type="submit" ion-button [disabled]="registerForm.invalid">Criar Conta</button>
+    </div>
+    <ion-label class="login" (click)="login()">Já tem uma conta? <strong>Entre agora mesmo</strong></ion-label>
+  </form>
+</ion-content>

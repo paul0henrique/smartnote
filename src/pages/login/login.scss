@@ -1,0 +1,62 @@
+page-login {
+
+    .form{
+        margin-top: 5em;
+    }
+
+    .title{
+        color: white;
+        text-align: center;
+    }
+    ion-content{
+        background-color: #121212 !important;
+    }
+
+    .item{
+        border-radius: 25px;
+        margin-top: 10px;
+    }
+
+    .button{
+        background-color: white !important;
+        color: black !important;
+        border-radius: 25px;
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+    }
+
+    ion-input{
+        font-family: "Poppins", sans-serif;
+    }
+
+    .create{
+        color: white;
+        text-align: center;
+    }
+
+    .button{
+        background-color: white !important;
+        color: black !important;
+        border-radius: 25px;
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+    }
+
+    ion-input{
+        font-family: "Poppins", sans-serif;
+    }
+
+    .custom-title {
+        padding-top: 2em;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        color: white;
+    }
+    .subtitle{
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        color: white;
+        font-size: 16px;
+    }  
+
+}

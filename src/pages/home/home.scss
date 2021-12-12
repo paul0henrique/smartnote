@@ -1,0 +1,33 @@
+page-home {
+
+    ion-content{
+        background-color: #121212 !important;
+    }
+
+    .custom-title {
+        padding-top: 5em;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        color: white;
+}
+    .subtitle{
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        color: white;
+        font-size: 16px;
+    }
+    .container-buttons{
+        text-align: center;
+        margin-top: 2em;
+
+    }
+
+    .button{
+        background-color: white !important;
+        color: black !important;
+        border-radius: 25px;
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+    }
+
+}

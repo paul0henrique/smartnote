@@ -1,0 +1,46 @@
+page-start {
+    
+    ion-content{
+        background-color: #121212 !important;
+        margin-top: 2em;
+    }
+
+    .input-task{
+        border-radius: 25px;
+    }
+    
+    .subtitle{
+        font-family: "Poppins", sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .button{
+        margin-top: 30px;
+        background-color: white !important;
+        color: black !important;
+        border-radius: 25px;
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+    }
+
+    ion-input{
+        font-family: "Poppins", sans-serif;
+    }
+    
+
+    .tasks-title{
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        margin-top: 2em;
+        color: white;
+        font-size: 20px;
+    }
+
+    .task{
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        color: white;
+    }
+}

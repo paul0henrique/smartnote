@@ -1,0 +1,45 @@
+page-create-user {
+    ion-content{
+        background-color: #121212 !important;
+    }
+
+    .form{
+        margin-top: 3em;
+    }
+
+    .item{
+        border-radius: 25px;
+        margin-top: 10px;
+    }
+
+    .button{
+        background-color: white !important;
+        color: black !important;
+        border-radius: 25px;
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+    }
+
+    ion-input{
+        font-family: "Poppins", sans-serif;
+    }
+
+    .login{
+        color: white;
+        text-align: center;
+    }
+
+    .custom-title {
+        padding-top: 2em;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        color: white;
+}
+    .subtitle{
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        color: white;
+        font-size: 16px;
+    }
+
+}

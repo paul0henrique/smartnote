@@ -1,0 +1,31 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Tarefas</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-label class="subtitle">Vamos organizar a sua rotina</ion-label>
+  <ion-item>
+    <ion-input class="input-task" type="text" placeholder="Digite sua tarefa"  [(ngModel)]="task"></ion-input>
+  </ion-item>
+  <button ion-button block class="button" (click)="addTask(task)"
+  [disabled]="!task || task.length < 3">Adicionar tarefa</button>
+
+  <h1 class="tasks-title">O que temos pra hoje</h1>
+
+  <div class="task-list" padding>
+    <ul>
+      <li class="task" *ngFor="let item of list">
+        {{ item.task }}
+      </li>
+    </ul>
+  </div>
+
+  <button class="button" (click)="logout()" ion-button>Fazer logout</button>
+
+</ion-content>
